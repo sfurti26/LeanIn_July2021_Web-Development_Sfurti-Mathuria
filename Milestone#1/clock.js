@@ -5,12 +5,12 @@ function time(){
     var seconds=datetime.getSeconds();
     var am_pm='AM';
 
-  /*  if(hours>12){
+    if(hours>12){
         hours=hours-12;
     }
     if(hours==0){
         hours=12;
-    }*/
+    }
     if(hours>=12){
         am_pm='PM';
     }
