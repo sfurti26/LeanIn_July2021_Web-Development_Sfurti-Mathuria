@@ -1,0 +1,29 @@
+.Font{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    color:#fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+                 0 0 20px #00b3ff,
+                 0 0 40px #00b3ff,
+                 0 0 80px #00b3ff,
+                 0 0 120px #00b3ff;
+}
+body{
+    background-color:black;
+}
+h1{
+    margin:0px;
+    padding:0px;
+}
+.clock{
+    border-width:5px;
+    border-style:solid;
+    border-color:#b1e2f5;
+    border-radius: 10px;
+    padding: 50px 50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
